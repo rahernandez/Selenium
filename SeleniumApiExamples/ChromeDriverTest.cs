@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Reflection;
 using System.IO;
 using System.Collections;
@@ -23,8 +23,6 @@ namespace SeleniumApiExamples
 
             chrome = new ChromeDriver(@"C:\ChromeDriver\"); 
 
-            
-
         }
 
         [TestMethod]
@@ -46,17 +44,18 @@ namespace SeleniumApiExamples
 
             ChromeOptions options = new ChromeOptions();
 
+
             options.AddArgument("test-type");
             options.AddArgument("disable-plugins");
             options.AddArgument("disable-extensions");
             options.AddArgument("--start-maximized");
 
-            IWebDriver oChrome = new ChromeDriver(options);
+            ChromeDriver driver = new ChromeDriver (@"C:\ChromeDriver\", options);
 
-            oChrome.Navigate().GoToUrl("http://www.compendiumdev.co.uk/selenium/basic_html_form.html");
+            driver.Navigate().GoToUrl("http://www.compendiumdev.co.uk/selenium/basic_html_form.html");
 
 
-            Assert.AreEqual("HTML Form Elements", chrome.Title);
+            Assert.AreEqual("HTML Form Elements", driver.Title);
 
             //chrome.Quit();
 
