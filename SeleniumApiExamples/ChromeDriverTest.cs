@@ -21,7 +21,7 @@ namespace SeleniumApiExamples
         public void Setup()
         {
 
-            chrome = new ChromeDriver(@"C:\ChromeDriver\"); 
+            chrome = new ChromeDriver(@"C:\webdrivers\chrome"); 
 
         }
 
@@ -29,7 +29,7 @@ namespace SeleniumApiExamples
         public void basicChromeUsage()
         {
 
-            
+            //ChromeDriver chrome = new ChromeDriver(@"C:\webdrivers\chrome");
 
             chrome.Navigate().GoToUrl("http://www.compendiumdev.co.uk/selenium/basic_html_form.html");
 
@@ -50,7 +50,7 @@ namespace SeleniumApiExamples
             options.AddArgument("disable-extensions");
             options.AddArgument("--start-maximized");
 
-            ChromeDriver driver = new ChromeDriver (@"C:\ChromeDriver\", options);
+            ChromeDriver driver = new ChromeDriver(@"C:\webdrivers\chrome\", options);
 
             driver.Navigate().GoToUrl("http://www.compendiumdev.co.uk/selenium/basic_html_form.html");
 

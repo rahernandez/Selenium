@@ -55,7 +55,6 @@
     <Compile Include="FirefoxDriverProfiles.cs" />
     <Compile Include="CompleteBioData.cs" />
     <Compile Include="CookieExampleTest.cs" />
-    <Compile Include="CanLoginToISSM.cs" />
     <Compile Include="JavaScriptExerciseTest.cs" />
     <Compile Include="ExplicitWaitTests.cs" />
     <Compile Include="JSAsynExerciseTest.cs" />
@@ -73,7 +72,6 @@
     <Compile Include="FrameExercise.cs" />
     <Compile Include="UserInteractionExerciseTest.cs" />
     <Compile Include="UserActionsTest.cs" />
-    <Compile Include="DiscoverLoginTest.cs" />
     <Compile Include="RadioButtonTest.cs" />
     <Compile Include="SelectTests.cs" />
     <Compile Include="ScreenShotTest.cs" />
