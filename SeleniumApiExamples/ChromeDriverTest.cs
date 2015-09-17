@@ -21,7 +21,7 @@ namespace SeleniumApiExamples
         public void Setup()
         {
 
-            chrome = new ChromeDriver(@"C:\webdrivers\chrome"); 
+            chrome = new ChromeDriver(@"C:\webdriver\chrome"); 
 
         }
 

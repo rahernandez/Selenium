@@ -58,7 +58,7 @@ namespace SeleniumApiExamples
         {
 
 
-            const string PhantomDir = @"C:\Users\RAHernandez2\Documents\GitHub\Selenium\selenium2_exercises\SeleniumApiExamples\packages\PhantomJS.2.0.0\tools\phantomjs\";
+            const string PhantomDir = @"C:\Users\robertoh\Source\Repos\Selenium\packages\PhantomJS.2.0.0\tools\phantomjs\";
             IWebDriver driver = new PhantomJSDriver(PhantomDir);
 
             driver.Navigate().GoToUrl("http://www.google.com");
@@ -70,7 +70,7 @@ namespace SeleniumApiExamples
 
             Assert.IsTrue(driver.Title.Contains("BDDfy"));
 
-            ((ITakesScreenshot)driver).GetScreenshot().SaveAsFile(@"C:\Users\RAHernandez2\Documents\GitHub\Selenium\selenium2_exercises\SeleniumApiExamples\Screenshots\google.png", System.Drawing.Imaging.ImageFormat.Png);
+            ((ITakesScreenshot)driver).GetScreenshot().SaveAsFile(@"C:\webdriver\screenshot\google.png", System.Drawing.Imaging.ImageFormat.Png);
         }
 
 

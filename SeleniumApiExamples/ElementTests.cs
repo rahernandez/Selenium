@@ -17,7 +17,7 @@ namespace SeleniumApiExamples
         [TestInitialize]
         public void Setup() 
         {
-            driver = new ChromeDriver(@"C:\ChromeDriver\");
+            driver = new ChromeDriver(@"C:\webdriver\chrome");
             driver.Navigate().GoToUrl("http://dl.dropbox.com/u/55228056/DoubleClickDemo.html");
         }
 

@@ -104,7 +104,7 @@ namespace SeleniumApiExamples
 
             //Java = getWindowHandle() | C# = CurrentWindowandle
             var framesWindowHandle = driver.CurrentWindowHandle;
-            //Assert.AreEqual(1, driver.WindowHandles.Count);
+            //Assert.AreEqual(1, driver.WindowHandles.Count);   
 
             driver.SwitchTo().Frame("content");
 
