@@ -2,7 +2,7 @@
 <TestSettings name="TestSettings1" id="3cc40bdc-1ab6-46eb-bd81-431894666db2" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
   <Description>These are default test settings for a local test run.</Description>
   <Deployment>
-    <DeploymentItem filename="C:\Users\rahernandez2\Documents\GitHub\Selenium\selenium2_exercises\SeleniumApiExamples\Data\DataFile.xlsx" />
+    <DeploymentItem filename="....\Data\DataFile.xlsx" />
   </Deployment>
   <Execution>
     <TestTypeSpecific>
